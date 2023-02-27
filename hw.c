@@ -2,11 +2,11 @@
 #include <string.h>
 
 int main() {
-  char name[10] = "Boris";
-  printf("name = %s\n", name);
+  int ctr = 10;
 
-  strcpy(name, "NotBoris");
-  printf("name = %s\n", name);
+  for (int i = 0; i < ctr; i++) {
+    printf("%d\n", i * i);
+  }
 
   return 0;
 }
